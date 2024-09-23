@@ -1,0 +1,22 @@
+name: ${PROJECT}
+description: ${DESCRIPTION}
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+
+template:
+  description: Proyecto para el desarrollo de aplicaciones serverless utilizando AWS.
+  config:
+    aws:region:
+      description: Región de AWS donde se implementa la aplicación.
+      default: us-east-1
+    env:
+      description:  Entorno en el que se ejecuta el proyecto.
+      default: desarrollo
+    empresa:
+      description: Nombre de la empresa que requiere la implementación del proyecto.
+      default: Osinergmin
+    proyecto:
+      description: Nombre del proyecto para su identificacion.
+      default: Chatbot

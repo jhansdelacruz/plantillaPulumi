@@ -1,0 +1,2 @@
+aws-lambda-powertools==2.39.1
+pytz==2024.1
